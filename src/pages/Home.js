@@ -12,6 +12,11 @@ const Home = () => {
   const [curDate, setCurDate] = useState(new Date());
 
   useEffect(() => {
+    const titleElement = document.getElementsByTagName("title")[0];
+    titleElement.innerHTML = `감정 다이어리`;
+  }, []);
+
+  useEffect(() => {
     if (diary.length >= 1) {
       //해당 달의 1일
       const firstDay = new Date(

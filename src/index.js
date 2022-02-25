@@ -9,8 +9,9 @@ import { composeWithDevTools } from "redux-devtools-extension";
 
 import { persistStore } from "redux-persist";
 import { PersistGate } from "redux-persist/integration/react";
-const store = createStore(rootReducer, composeWithDevTools());
-//composeWithDevTools 리덕스 개발자 도구 활성화
+// const store = createStore(rootReducer, composeWithDevTools());
+//composeWithDevTools 리덕스 개발자 도구 활성화 //배포시 삭제
+const store = createStore(rootReducer);
 
 const persistor = persistStore(store);
 
