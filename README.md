@@ -6,4 +6,4 @@
 
 ##### 사이트 링크
 
-[감정 다이어리]](https://emotion-diary-firebase.web.app/) https://emotion-diary-firebase.web.app/
+[감정 다이어리](https://emotion-diary-firebase.web.app/) https://emotion-diary-firebase.web.app/
